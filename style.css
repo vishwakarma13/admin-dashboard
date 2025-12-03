@@ -33,7 +33,15 @@ li {
     list-style-type: none;
 }
 
+.search-bar-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 
+.avatar-buttons-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 .header {
     background-color: white;
