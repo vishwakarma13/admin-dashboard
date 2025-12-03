@@ -15,6 +15,10 @@ body {
     display: grid; /*to make the sidebard a grid container*/
 }
 
+li {
+    list-style-type: none;
+}
+
 .header {
     background-color: white;
 }
