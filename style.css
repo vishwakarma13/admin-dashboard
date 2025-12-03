@@ -43,6 +43,14 @@ li {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: center; /*centers the text inside the .button containers*/
+}
+
+
 .header {
     background-color: white;
     grid-row: 1/3;
