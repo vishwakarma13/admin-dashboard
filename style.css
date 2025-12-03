@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 30px;
 }
 
 .container {
@@ -87,7 +88,7 @@ li {
     padding-right: 10px;
 }
 
-.project {
+.project, .trending-card, .announcement-card {
     background-color: white;
     border-radius: 15px;
 }
@@ -101,4 +102,8 @@ li {
     text-align:left;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.user-name {
+    margin: auto;
 }
