@@ -107,3 +107,13 @@ li {
 .user-name {
     margin: auto;
 }
+
+.project {
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    margin: 0;
+}
