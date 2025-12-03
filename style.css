@@ -65,7 +65,10 @@ li {
     display: grid;
     grid-template-rows: 1fr 12fr;
     grid-template-columns: 3fr 1fr;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .content-headings {
@@ -73,4 +76,9 @@ li {
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 3fr 1fr;
+}
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
