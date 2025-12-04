@@ -135,8 +135,8 @@ p {
 }
 
 .search-logo img {
-     max-width: 40px; 
-     max-height: 40px;
+     max-width: 30px; 
+     max-height: 30px;
      
 }
 
@@ -189,6 +189,15 @@ ul {
 }
 
 .bell-icon img {
-    max-width: 40px; 
-    max-height: 40px;
+    max-width: 30px; 
+    max-height: 30px;
+}
+
+.avatar-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.avatar-text h2 {
+    margin: 0;
 }
