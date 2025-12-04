@@ -134,3 +134,15 @@ p {
     border-radius: 20px;
     font-size: 20px;
 }
+
+.search-logo img {
+     max-width: 40px; 
+     max-height: 40px;
+     
+}
+
+.search-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
