@@ -2,11 +2,12 @@ body {
     margin: 0;
     /* font-size: 25px; */
     font-family: "Roboto", sans-serif;
+
 }
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 6fr;     
     grid-template-rows: repeat(8, 1fr);
     height: 100vh;
 }
@@ -18,12 +19,9 @@ body {
     display: grid;
     /* grid-template-rows: 1fr 4fr 5fr; */
     color: white;
-}
-
-.dashboard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
 }
 
 .nav {
@@ -34,9 +32,6 @@ body {
     grid-row: 5/9;
 }
 
-li {
-    list-style-type: none;
-}
 
 .search-bar-row {
     display: grid;
@@ -205,11 +200,26 @@ ul {
 .dashboard {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
 .dashboard img {
+    max-width: 30px; 
+    max-height: 30px;
+}
+
+.dashboard div {
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.home-text, .profile-text, .messages-text, .history-text, .tasks-text, .communities-text {
+    display: flex;
+    align-items: center;
+}
+
+div img {
     max-width: 30px; 
     max-height: 30px;
 }
