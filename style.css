@@ -40,7 +40,7 @@ li {
 
 .search-bar-row {
     display: grid;
-    grid-template-columns: 1fr 10fr 1fr 1fr 3fr;
+    grid-template-columns: 1fr 10fr 1fr 1fr 2fr;
 }
 
 .avatar-buttons-row {
@@ -165,4 +165,27 @@ p {
 
 ul {
     margin: 0;
+}
+
+.avatar-mini img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.avatar-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bell-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bell-icon img {
+    max-width: 40px; 
+    max-height: 40px;
 }
