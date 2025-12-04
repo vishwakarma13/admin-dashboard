@@ -209,14 +209,18 @@ ul {
     max-height: 30px;
 }
 
-.dashboard div {
+.dashboard-text {
     margin-left: 2%;
     font-size: 20px;
 }
 
-.home-text, .profile-text, .messages-text, .history-text, .tasks-text, .communities-text {
+.nav-text {
     display: flex;
     align-items: center;
+}
+
+.nav-text div {
+    margin-left: 2%;
 }
 
 div img {
