@@ -17,6 +17,7 @@ body {
     grid-row: 1/9; /*to define the extent of the sidebar in its parent grid*/
     display: grid;
     /* grid-template-rows: 1fr 4fr 5fr; */
+    color: white;
 }
 
 .logo {
