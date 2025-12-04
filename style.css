@@ -214,12 +214,16 @@ ul {
     font-size: 20px;
 }
 
-.nav-text {
+.nav-text, .tools-text {
     display: flex;
     align-items: center;
 }
 
 .nav-text div {
+    margin-left: 2%;
+}
+
+.tools-text div {
     margin-left: 2%;
 }
 
